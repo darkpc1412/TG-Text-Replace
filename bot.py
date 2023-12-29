@@ -21,9 +21,9 @@ if __name__ == "__main__" :
     )
     app = pyrogram.Client(
         ":memory:",
-        bot_token=Config.BOT_TOKEN,
-        api_id=Config.APP_ID,
-        api_hash=Config.API_HASH,        
+        bot_token="6799627176:AAEb7ITggFCsQw47YEMt2l5e66Lrgq-BASQ",
+        api_id="20781152",
+        api_hash="0781163b5caac00db3268444e688d9e7",        
         plugins=plugins,
         parse_mode="html"
     )
