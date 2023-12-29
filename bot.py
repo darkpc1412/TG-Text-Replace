@@ -8,11 +8,6 @@ import os
 from pyromod import listen
 
 
-if bool(os.environ.get("WEBHOOK", False)):
-    from sample_config import Config
-else:
-    from config import Config
-
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
